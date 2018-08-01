@@ -11,8 +11,8 @@ import tempfile
 
 def get_sound(file_path,clip_start=0,clip_length=0,sampling_rate=0):
     folder=os.path.split(file_path)[0]
-    # ffmpeg = "ffmpeg"
-    ffmpeg = "E:/LW/MP/github/VideoSync-master/ffmpeg-20180713-97d766f-win64-static/bin/ffmpeg.exe"
+    ffmpeg = "ffmpeg"
+    # ffmpeg = "E:/LW/MP/github/VideoSync-master/ffmpeg-20180713-97d766f-win64-static/bin/ffmpeg.exe"
 
 
     temp_file_path = tempfile.mktemp(suffix=".wav")
