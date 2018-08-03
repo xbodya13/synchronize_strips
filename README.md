@@ -38,3 +38,6 @@ Increasing the sampling rate may lead to a better result ,but also increases com
 
 As a result ,it should synchronize selected strips with active
 
+# Special thanks
+
+to Gabriel Montagne for sponsoring this addon
